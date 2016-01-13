@@ -1,13 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
-/*
-	Prologue by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
@@ -61,24 +54,6 @@
 	.container {
 		margin-left: auto;
 		margin-right: auto;
-	}
-
-	.container.\31 25\25 {
-		width: 100%;
-		max-width: 1750px;
-		min-width: 1400px;
-	}
-
-	.container.\37 5\25 {
-		width: 1050px;
-	}
-
-	.container.\35 0\25 {
-		width: 700px;
-	}
-
-	.container.\32 5\25 {
-		width: 350px;
 	}
 
 	.container {
@@ -1552,7 +1527,7 @@
 
 	body {
 		background: #fff;
-		font-family: 'Source Sans Pro', sans-serif;
+		font-family: 'Oswald', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -1573,15 +1548,17 @@
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.75em;
 		color: #888;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
-		color: #666;
+		color: #610B4B;
 		line-height: 1.5em;
+		font-family: 'Sigmar One', cursive;
+
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1608,6 +1585,7 @@
 
 	h3 {
 		font-size: 1.5em;
+
 	}
 
 	header {
@@ -2162,7 +2140,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-image: url("../../images/tulipan.jpg");
 			}
 
 			#main > section.two {
@@ -2170,7 +2148,7 @@
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #F5F6CE;
 			}
 
 			#main > section.four {
@@ -2553,7 +2531,31 @@
 		
 	}
 
-	.icons li {
+	.icons li a {
 		color: black;
-		font-size: 15px;
+		font-size: 35px;
 	}
+
+	.slider1
+{
+	width: 400px;
+	outline: 1px solid #FF0000;
+	overflow: hidden;
+}
+.slider1 ul
+{
+	width: 3000px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.slider1 li
+{
+	float: left;
+	display: block;
+	width: 400px;
+}
+.slider1 ul:hover
+{
+	margin-left: -400px;
+}
