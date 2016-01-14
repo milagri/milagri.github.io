@@ -2145,10 +2145,12 @@
 
 			#main > section.two {
 				background-color: #f5fafa;
+				
 			}
 
 			#main > section.three {
 				background-color: #F5F6CE;
+				background-image: url("../../images/tile2.png");
 			}
 
 			#main > section.four {
@@ -2538,7 +2540,7 @@
 
 	.slider1
 {
-	width: 400px;
+	width: 100%;
 	outline: 1px solid #FF0000;
 	overflow: hidden;
 }
@@ -2559,3 +2561,23 @@
 {
 	margin-left: -400px;
 }
+
+body {
+        background: #fff;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+    }
