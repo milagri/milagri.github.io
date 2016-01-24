@@ -2563,3 +2563,10 @@ body {
         width: 300px;
         height: 300px;
     }
+ .iconos {
+ 	width: 100%;
+ }
+ .label a:hover {
+ 	color: :red;
+ 	font-size: 30px;
+ }
