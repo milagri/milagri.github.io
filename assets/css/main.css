@@ -1557,7 +1557,7 @@
 		font-weight: 300;
 		color: #610B4B;
 		line-height: 1.5em;
-		font-family: 'Sigmar One', cursive;
+		font-family: 'Oswald', sans-serif;
 
 	}
 
@@ -1571,7 +1571,7 @@
 		}
 
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 		letter-spacing: -1px;
 	}
 
@@ -2042,7 +2042,7 @@
 		#nav ul li a span {
 			position: relative;
 			display: block;
-			font-size: 1em;
+			font-size: 1.2em;
 		}
 
 			#nav ul li a span:before {
@@ -2547,7 +2547,8 @@
 
 body {
         background: #fff;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-family: 'Oswald', sans-serif;
+
         font-size: 14px;
         color:#000;
         margin: 0;
@@ -2567,4 +2568,7 @@ body {
  .iconos {
  	width: 100%;
  }
- 
+ .icons li a:hover {
+ 	color: #FFBF00;
+ 	font-size: 55px;
+ }
