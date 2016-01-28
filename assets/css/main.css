@@ -2007,7 +2007,7 @@
 			position: relative;
 			color: #fff;
 			font-weight: 600;
-			font-size: 1em;
+			font-size: 1.4em;
 			line-height: 1em;
 		}
 
@@ -2042,7 +2042,7 @@
 		#nav ul li a span {
 			position: relative;
 			display: block;
-			font-size: 0.8em;
+			font-size: 1em;
 		}
 
 			#nav ul li a span:before {
@@ -2140,6 +2140,7 @@
 
 			#main > section.one {
 				background-color: #81918E;
+
 				background-image: url("../../images/slider2.jpg");
 			}
 
@@ -2566,7 +2567,4 @@ body {
  .iconos {
  	width: 100%;
  }
- .label a:hover {
- 	color: :red;
- 	font-size: 30px;
- }
+ 
